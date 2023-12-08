@@ -1,11 +1,11 @@
-# react-intersectionObserver-wrapper
+# react-intersectionobserver-wrapper
 
 Simple Intersection Observer wrapper for React js.
 
-import the useObserve hook from "react-intersectionObserver-wrapper"
+import the useObserve hook from "react-intersectionobserver-wrapper"
 
 ```javascript
-import useObserve from "react-intersectionObserver-wrapper";
+import useObserve from "react-intersectionobserver-wrapper";
 ```
 
 Pass single ref to the hook or array of refs to the hook

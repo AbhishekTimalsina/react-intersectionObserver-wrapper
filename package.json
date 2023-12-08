@@ -1,0 +1,23 @@
+{
+  "name": "react-intersectionobserver-wrapper",
+  "version": "1.0.0",
+  "description": "Simple Intersection Observer wrapper for React js.",
+  "main": "src/index.jsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbhishekTimalsina/react-intersectionObserver-wrapper.git"
+  },
+  "keywords": [
+    "react",
+    "intersection-observer"
+  ],
+  "author": "Abhishek Timalsina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbhishekTimalsina/react-intersectionObserver-wrapper/issues"
+  },
+  "homepage": "https://github.com/AbhishekTimalsina/react-intersectionObserver-wrapper#readme"
+}
