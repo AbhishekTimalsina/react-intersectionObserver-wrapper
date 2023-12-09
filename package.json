@@ -1,6 +1,6 @@
 {
   "name": "react-intersectionobserver-wrapper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple Intersection Observer wrapper for React js.",
   "main": "src/index.jsx",
   "scripts": {
@@ -19,5 +19,13 @@
   "bugs": {
     "url": "https://github.com/AbhishekTimalsina/react-intersectionObserver-wrapper/issues"
   },
-  "homepage": "https://github.com/AbhishekTimalsina/react-intersectionObserver-wrapper#readme"
+  "homepage": "https://github.com/AbhishekTimalsina/react-intersectionObserver-wrapper#readme",
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
 }

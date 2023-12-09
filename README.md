@@ -8,7 +8,7 @@ import the useObserve hook from "react-intersectionobserver-wrapper"
 import useObserve from "react-intersectionobserver-wrapper";
 ```
 
-Pass single ref to the hook or array of refs to the hook
+Pass single ref to the hook or array of refs to the hook. It returns an observe function that you can pass the callbackk funciton and options in (use it inside of useEffect function)
 
 ```javascript
 function App() {
@@ -43,5 +43,5 @@ function callback(entries){
 useEffect(() => {
   observe(callback,{ threshold: 0.5 });
 },[]);
-// the option obj is optional. It is the option object passed in the intersection-observer api
+// the optionObj is optional. It is the option object passed in the intersection-observer api
 ```
