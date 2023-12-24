@@ -16,13 +16,17 @@ function useObserve(elements) {
     };
   }, [elements]);
 
-  function observe(callBack, userOptions = {}) {
+  function observe(userCallBack, userOptions = {}) {
     let options = {
       root: null,
       rootMargin: "0px",
       threshold: 0.5,
       ...userOptions,
     };
+
+    function callBack(entries) {
+      userCallBack(entries, observer.current);
+    }
 
     observer.current = new IntersectionObserver(callBack, options);
     elementRef.current.forEach((el) => {
