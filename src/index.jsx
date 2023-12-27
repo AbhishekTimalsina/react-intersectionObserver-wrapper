@@ -12,6 +12,7 @@ function useObserve(elements) {
     }
 
     return () => {
+      if (!observer.current) return;
       observer.current.disconnect();
     };
   }, [elements]);

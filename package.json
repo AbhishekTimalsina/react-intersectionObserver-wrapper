@@ -1,6 +1,6 @@
 {
   "name": "react-intersectionobserver-wrapper",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Simple Intersection Observer wrapper for React js.",
   "main": "src/index.jsx",
   "scripts": {
